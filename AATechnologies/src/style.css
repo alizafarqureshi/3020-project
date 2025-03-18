@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.hero-section{
+    margin-top: 6em;
+}
+
+#hero-section-h1 {
+    font-size: 4.5em;
+}
+
+.aa-text {
+    color: green;
+    font-weight: bolder; /* Extra bold */
+  }
+  
+  .technologies-text {
+    color: black;
+    font-weight: normal; /* Regular font weight */
+  }
+  
+  #wave {
+    margin-bottom: 2em;
+  }
+  
+
+  #h1-title{
+    font-size: 3.5em;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+  }
+
+  .portfolio{
+    border-radius: 1em;
+    height: 600px;
+  }
+
+  #h1-portfolio{
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+  }
