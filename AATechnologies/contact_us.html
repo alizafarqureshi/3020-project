@@ -57,7 +57,7 @@
   <div class="contact-usf d-flex justify-content-center">
     <div class="contact-us-form p-5">
 
-      <form>
+      <form action="http://localhost:3000/submit-form" method="POST" id = "contactForm">
         <div class="form-group mb-3">
           <label for="formGroupExampleInput">Name</label>
           <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter your name">
@@ -67,8 +67,8 @@
           <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Email Address">
         </div>
         <div class="form-group">
-          <label for="formGroupExampleInput2">Phone Number</label>
-          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Enter Phone Number">
+          <label for="formGroupExampleInput3">Phone Number</label>
+          <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Enter Phone Number">
         </div>
 
         <div class="contact-us-radio mt-4">
@@ -120,20 +120,15 @@
       </div>
         </div>
 
-        
-
-        <button class="btn btn-outline-success rounded-pill px-4 py-2 mt-4 mb-5">Let's Talk</button>
+        <button class="btn btn-outline-success rounded-pill px-4 py-2 mt-4 mb-5" type="button" onclick="Submit()" id="submitBtn">Let's Talk</button>
           
-
       </form>
+
+      <div id="msg"></div>
 
     </div>
 
   </div>
-
-
-
-
 
   <!-- FOOTER -->
 
@@ -154,6 +149,7 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 
+  <script src="javascript/contact.js"></script>
 </body>
 
 </html>
