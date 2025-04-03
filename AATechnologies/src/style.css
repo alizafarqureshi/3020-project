@@ -54,6 +54,8 @@
 
 
 
+
+
 /* CARD */
 
 .carousel-inner {
@@ -304,7 +306,7 @@ footer{
 /* Contact US PAGE */
 
 .contact-us-form{
-  height: 600px;
+  
   width: 70%;
   background-color: rgba(41, 41, 41, 0.05);
 }
