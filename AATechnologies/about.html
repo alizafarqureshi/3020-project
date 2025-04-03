@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./src/style.css">
+
+</head>
+
+<body>
+
+    <style>
+        h1 {
+            font-size: 4.5rem;
+        }
+
+
+
+
+        .text-success {
+            color: #34a853;
+            /* Green dot color */
+        }
+
+        .text-muted {
+            font-size: 1.1rem;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .shadow {
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+                /* Adjust heading size for mobile */
+            }
+        }
+    </style>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <span class="aa-text text-success fw-bold">AA</span><span class="technologies-text">Technologies</span>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link text-success" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-success" href="./services.html">Services</a></li>
+                <li class="nav-item"><a class="nav-link text-success" href="./project.html">Our Projects</a></li>
+                <li class="nav-item"><a class="nav-link text-success" href="./about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link text-success" href="./contact_us.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+    <div class="container my-5">
+
+        <!-- Row 1: About Us Heading and Description -->
+        <div class="container my-5">
+            <div class="row mb-5">
+                <div class="col-10 col-md-4">
+                    <h1 class="fw-bold">About Us<span class="text-success">.</span></h1>
+                    <p class="text-muted">
+                        AA Technologies has provided services to over 600 customers. We've worked with various
+                        industries like aviation,
+                        food, shipping, chemical, and manufacturing. Our services include Odoo integration, web
+                        application development,
+                        mobile application development, ecommerce website development, web development, and branding.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Row 2: Image Left, Text Right -->
+        <div class="row align-items-center mb-5">
+            <div class="col-md-6">
+                <img src="./src/img/about1.png" class="img-fluid rounded shadow" alt="Office Image 1">
+            </div>
+            <div class="col-md-6">
+                <p class="text-muted">
+                    At Paz Technologies, we specialize in crafting personalized software, user-friendly websites, and
+                    mobile applications. We're experienced in Odoo integration, implementation, and customization, along
+                    with branding services. Our commitment is to deliver high-quality work because we truly understand
+                    our clients' needs and fulfill their requirements. Additionally, we offer valuable suggestions to
+                    help take their projects to the next level.
+                </p>
+            </div>
+        </div>
+
+        <!-- Row 3: Image Right, Text Left -->
+        <div class="row align-items-center">
+            <div class="col-md-6 order-md-2">
+                <img src="./src/img/about2.png" class="img-fluid rounded shadow" alt="Office Image 2">
+            </div>
+            <div class="col-md-6 order-md-1">
+                <p class="text-muted">
+                    We are Paz Technologies, a passionate team dedicated to using technology to empower businesses. We
+                    provide various services like Odoo integration, web and mobile app development, ecommerce, and
+                    branding. Having served 600 clients from different industries, we are committed to delivering
+                    top-quality solutions, showcasing our excellence in technology.
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <div class="container ">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-success">Home</a></li>
+                <li class="nav-item"><a href="./project.html" class="nav-link px-2 text-success">Projects</a></li>
+                <li class="nav-item"><a href="./contact_us.html" class="nav-link px-2 text-success">Contact Us</a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link px-2 text-success">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-success">Our Services</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2025 AA Technologies, Inc</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+</body>
+
+</html>
