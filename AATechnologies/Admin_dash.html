@@ -39,7 +39,7 @@
                     <option value="service">Service</option>
                 </select>
             </div>
-            <div class="mb-3">
+            <div class="mb-3" id="titleField">
                 <label for="title" class="form-label">Title</label>
                 <input type="text" id="title" class="form-control">
             </div>
@@ -51,7 +51,7 @@
                 <label for="image" class="form-label">Upload Image</label>
                 <input type="file" id="image" class="form-control text-success">
             </div>
-            <button type="submit" class="btn btn-success">Submit</button>
+            <button type="submit" id="button" class="btn btn-success">Submit</button>
         </form>
     </div>
 
@@ -66,25 +66,7 @@
         <p class="text-center text-body-secondary">© 2025 AA Technologies, Inc</p>
     </footer>
 
-    <script>
-        function toggleFields() {
-            let category = document.getElementById("category").value;
-            let descriptionField = document.getElementById("descriptionField");
-            let imageField = document.getElementById("imageField");
-
-            if (category === "service") {
-                descriptionField.style.display = "block";
-                imageField.style.display = "none";
-            } else if (category === "project") {
-                descriptionField.style.display = "none";
-                imageField.style.display = "block";
-            } else {
-                descriptionField.style.display = "none";
-                imageField.style.display = "none";
-            }
-        }
-        document.addEventListener("DOMContentLoaded", toggleFields);
-    </script>
+    <script src="javascript/adminDash.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
